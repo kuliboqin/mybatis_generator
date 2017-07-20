@@ -16,7 +16,7 @@
 		</commentGenerator>
 		<!--数据库链接URL，用户名、密码 -->
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-			connectionURL="jdbc:mysql://localhost/mytest" userId="root" password="123456">
+			connectionURL="jdbc:mysql://192.168.201.104:3306/dubbox?useUnicode=true&amp;characterEncoding=UTF-8" userId="root" password="root">
 			</jdbcConnection>
 		<javaTypeResolver>
 			<!-- This property is used to specify whether MyBatis Generator should 
@@ -41,7 +41,7 @@
 		</javaClientGenerator>
 		
 		<!-- 要生成哪些表 -->
-		<table tableName="user" domainObjectName="user"
+		<table tableName="sys_user" domainObjectName="Sysuser"
 			enableCountByExample="false" enableUpdateByExample="false"
 			enableDeleteByExample="false" enableSelectByExample="false"
 			selectByExampleQueryId="false"></table>

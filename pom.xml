@@ -53,10 +53,10 @@
 							<version>5.1.35</version>
 						</dependency>
 					</dependencies>
-	<!--				<configuration>
+					<configuration>
  						<configurationFile>${basedir}/src/main/resources/generatorConfig.xml</configurationFile> 
 						<overwrite>true</overwrite>
-					</configuration>-->
+					</configuration>
 				</plugin>
 			</plugins>
 		<!--</pluginManagement>-->
